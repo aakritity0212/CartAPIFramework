@@ -15,8 +15,8 @@ public class AuthTests extends BaseTest{
     public void validLoginTest() {
 
         String body = "{\n" +
-                "  \"username\": \"mor_2314\",\n" +
-                "  \"password\": \"83r5^_\"\n" +
+                "  \"username\": \"john_doe\",\n" +
+                "  \"password\": \"pass123\"\n" +
                 "}";
 
         Response response = given()
