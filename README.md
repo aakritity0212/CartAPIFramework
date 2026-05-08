@@ -20,7 +20,7 @@ Maven
 - Dependency management
 - Easy build execution
 
-**Future Enhancement: **
+**Future Enhancement:**
 - Reporting
 - CI/CD integration
 - Retry Mechanism
