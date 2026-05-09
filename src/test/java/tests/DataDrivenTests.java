@@ -34,7 +34,7 @@ public class DataDrivenTests extends BaseTest{
 
         cartClient.createCart(body)
             .then()
-            .statusCode(200)
+            .statusCode(201)
             .body("products[0].productId", equalTo(productId));
     }
 

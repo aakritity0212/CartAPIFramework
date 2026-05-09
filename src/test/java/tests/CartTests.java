@@ -27,7 +27,7 @@ public class CartTests extends BaseTest{
 
         Response res = cartClient.createCart(body);
 
-        Assert.assertEquals(res.statusCode(), 200);
+        Assert.assertEquals(res.statusCode(), 201);
         Assert.assertNotNull(res.jsonPath().getInt("id"));
     }
     
